@@ -5,7 +5,7 @@ require 'sinatra'
 
 class HelloSinatra < Sinatra::Base
   set :bind, '0.0.0.0'
-  #set :port, 80 # para dar deploy na porta 80
+  # set :port, 80 # to deploy on tcp port 80, sudo needed
   set :environment, :production
 
   configure :production do

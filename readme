@@ -1,1 +1,7 @@
-The most simple hello world with sinatra
+Just a simple hello world using ruby with sinatra
+
+Run with:
+
+    ruby hello_sinatra.rb
+
+
